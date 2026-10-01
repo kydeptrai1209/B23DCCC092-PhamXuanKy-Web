@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vs-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0065a9" />
+      <stop offset="100%" stop-color="#007acc" />
+    </linearGradient>
+    <linearGradient id="vs-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#007acc" />
+      <stop offset="100%" stop-color="#1f9cf0" />
+    </linearGradient>
+    <linearGradient id="vs-grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#005a9e" />
+      <stop offset="100%" stop-color="#0065a9" />
+    </linearGradient>
+    <filter id="vs-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background shape -->
+  <rect width="500" height="500" rx="30" fill="#1e1e1e" />
+
+  <!-- Logo group -->
+  <g transform="translate(60, 60)" filter="url(#vs-shadow)">
+    <!-- Right ribbon -->
+    <path d="M285,190 L360,130 C370,122 380,128 380,140 L380,240 C380,252 370,258 360,250 L285,190 Z" fill="url(#vs-grad1)" />
+    
+    <!-- Left folded arms -->
+    <path d="M95,145 L285,10 L380,85 C380,85 285,160 285,190 L95,335 C85,342 70,336 70,322 L70,158 C70,144 85,138 95,145 Z" fill="url(#vs-grad2)" />
+    
+    <!-- Lower fold -->
+    <path d="M285,190 L380,295 L285,370 L95,235 L285,190 Z" fill="url(#vs-grad3)" />
+    
+    <!-- Top overlap fold -->
+    <path d="M285,10 L285,370 L380,295 L380,85 Z" fill="#0065a9" opacity="0.3" />
+  </g>
+
+  <!-- Label below -->
+  <text x="250" y="445" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Visual Studio Code</text>
+  <text x="250" y="475" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="16" fill="#007acc" text-anchor="middle">Code Editing. Redefined.</text>
+</svg>

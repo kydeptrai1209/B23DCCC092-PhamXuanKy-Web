@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Window Container -->
+  <rect width="800" height="480" rx="8" fill="#181818" />
+
+  <!-- Title bar -->
+  <rect width="800" height="32" rx="8" fill="#323233" />
+  <path d="M0 20 h800 v12 h-800 z" fill="#323233" />
+  <!-- Window Controls -->
+  <circle cx="20" cy="16" r="6" fill="#ed6a5e" />
+  <circle cx="38" cy="16" r="6" fill="#f4bf4f" />
+  <circle cx="56" cy="16" r="6" fill="#61c554" />
+  <text x="400" y="21" font-family="'Segoe UI', sans-serif" font-size="12" fill="#cccccc" text-anchor="middle">index.html - Visual Studio Code</text>
+
+  <!-- Left Activity Bar (Darkest strip) -->
+  <rect x="0" y="32" width="48" height="426" fill="#333333" />
+  <!-- Activity Bar Icons -->
+  <g fill="#858585" transform="translate(14, 45)">
+    <!-- Explorer Icon -->
+    <rect x="2" y="2" width="16" height="13" rx="1" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <!-- Search Icon -->
+    <circle cx="10" cy="40" r="5" fill="none" stroke="#858585" stroke-width="2"/>
+    <line x1="14" y1="44" x2="18" y2="48" stroke="#858585" stroke-width="2"/>
+    <!-- Source Control Git Icon -->
+    <circle cx="10" cy="70" r="3" fill="#858585"/>
+    <circle cx="10" cy="85" r="3" fill="#858585"/>
+    <circle cx="16" cy="78" r="3" fill="#858585"/>
+    <path d="M10 73 L10 82 M10 75 Q16 75 16 78" stroke="#858585" stroke-width="1.5" fill="none"/>
+    <!-- Debug Icon -->
+    <polygon points="6,105 16,112 6,119" fill="#858585"/>
+    <!-- Extensions Icon -->
+    <rect x="3" y="140" width="7" height="7" fill="#858585"/>
+    <rect x="11" y="140" width="7" height="7" fill="#858585"/>
+    <rect x="3" y="148" width="7" height="7" fill="#858585"/>
+  </g>
+
+  <!-- Sidebar File Explorer -->
+  <rect x="48" y="32" width="180" height="426" fill="#252526" />
+  <text x="60" y="54" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" fill="#bbbbbb">EXPLORER: PROJECT</text>
+  <text x="65" y="80" font-family="'Segoe UI', sans-serif" font-size="12" fill="#cccccc">▼ MY-PROJECT</text>
+  <text x="80" y="105" font-family="'Segoe UI', sans-serif" font-size="12" fill="#e44d26">&lt;&gt; index.html</text>
+  <text x="80" y="128" font-family="'Segoe UI', sans-serif" font-size="12" fill="#264de4">#  style.css</text>
+  <text x="80" y="151" font-family="'Segoe UI', sans-serif" font-size="12" fill="#f7df1e">JS script.js</text>
+  <text x="80" y="174" font-family="'Segoe UI', sans-serif" font-size="12" fill="#007acc">▼ images</text>
+  <text x="95" y="197" font-family="'Segoe UI', sans-serif" font-size="12" fill="#9cdcfe">logo.svg</text>
+  <text x="95" y="220" font-family="'Segoe UI', sans-serif" font-size="12" fill="#9cdcfe">banner.png</text>
+  <text x="80" y="243" font-family="'Segoe UI', sans-serif" font-size="12" fill="#42a5f5">📄 README.md</text>
+
+  <!-- Editor Header Tabs -->
+  <rect x="228" y="32" width="572" height="35" fill="#2d2d2d" />
+  <!-- Tab Active -->
+  <rect x="228" y="32" width="140" height="35" fill="#1e1e1e" />
+  <line x1="228" y1="32" x2="368" y2="32" stroke="#007acc" stroke-width="2"/>
+  <text x="245" y="54" font-family="'Segoe UI', sans-serif" font-size="12" fill="#e44d26">&lt;&gt;</text>
+  <text x="265" y="54" font-family="'Segoe UI', sans-serif" font-size="12" fill="#ffffff">index.html</text>
+  <text x="350" y="54" font-family="'Segoe UI', sans-serif" font-size="12" fill="#888888">×</text>
+
+  <!-- Tab Inactive -->
+  <text x="385" y="54" font-family="'Segoe UI', sans-serif" font-size="12" fill="#264de4">#</text>
+  <text x="402" y="54" font-family="'Segoe UI', sans-serif" font-size="12" fill="#999999">style.css</text>
+
+  <!-- Editor Code Area -->
+  <rect x="228" y="67" width="572" height="260" fill="#1e1e1e" />
+  
+  <!-- Line Numbers & Code -->
+  <g font-family="'Consolas', 'Courier New', monospace" font-size="13">
+    <!-- Line 1 -->
+    <text x="242" y="90" fill="#858585">1</text>
+    <text x="270" y="90" fill="#808080">&lt;!DOCTYPE html&gt;</text>
+
+    <!-- Line 2 -->
+    <text x="242" y="112" fill="#858585">2</text>
+    <text x="270" y="112" fill="#808080">&lt;</text><text x="278" y="112" fill="#569cd6">html</text> <text x="312" y="112" fill="#9cdcfe">lang</text><text x="345" y="112" fill="#d4d4d4">=</text><text x="355" y="112" fill="#ce9178">"vi"</text><text x="385" y="112" fill="#808080">&gt;</text>
+
+    <!-- Line 3 -->
+    <text x="242" y="134" fill="#858585">3</text>
+    <text x="270" y="134" fill="#808080">&lt;</text><text x="278" y="134" fill="#569cd6">head</text><text x="312" y="134" fill="#808080">&gt;</text>
+
+    <!-- Line 4 -->
+    <text x="242" y="156" fill="#858585">4</text>
+    <text x="285" y="156" fill="#808080">&lt;</text><text x="293" y="156" fill="#569cd6">title</text><text x="335" y="156" fill="#808080">&gt;</text><text x="343" y="156" fill="#d4d4d4">Giới thiệu Visual Studio Code</text><text x="590" y="156" fill="#808080">&lt;/</text><text x="606" y="156" fill="#569cd6">title</text><text x="648" y="156" fill="#808080">&gt;</text>
+
+    <!-- Line 5 -->
+    <text x="242" y="178" fill="#858585">5</text>
+    <text x="270" y="178" fill="#808080">&lt;/</text><text x="286" y="178" fill="#569cd6">head</text><text x="320" y="178" fill="#808080">&gt;</text>
+
+    <!-- Line 6 -->
+    <text x="242" y="200" fill="#858585">6</text>
+    <text x="270" y="200" fill="#808080">&lt;</text><text x="278" y="200" fill="#569cd6">body</text><text x="312" y="200" fill="#808080">&gt;</text>
+
+    <!-- Line 7 -->
+    <text x="242" y="222" fill="#858585">7</text>
+    <text x="285" y="222" fill="#808080">&lt;</text><text x="293" y="222" fill="#569cd6">h1</text><text x="310" y="222" fill="#808080">&gt;</text><text x="318" y="222" fill="#d4d4d4">Visual Studio Code (VS Code)</text><text x="560" y="222" fill="#808080">&lt;/</text><text x="576" y="222" fill="#569cd6">h1</text><text x="593" y="222" fill="#808080">&gt;</text>
+
+    <!-- Line 8 -->
+    <text x="242" y="244" fill="#858585">8</text>
+    <text x="285" y="244" fill="#808080">&lt;</text><text x="293" y="244" fill="#569cd6">p</text><text x="302" y="244" fill="#808080">&gt;</text><text x="310" y="244" fill="#d4d4d4">Trình biên tập mã nguồn phổ biến hàng đầu thế giới.</text><text x="730" y="244" fill="#808080">&lt;/</text><text x="746" y="244" fill="#569cd6">p</text><text x="755" y="244" fill="#808080">&gt;</text>
+  </g>
+
+  <!-- Built-in Terminal Window -->
+  <rect x="228" y="327" width="572" height="131" fill="#181818" stroke="#333333" stroke-width="1"/>
+  <!-- Terminal Header -->
+  <rect x="228" y="327" width="572" height="26" fill="#252526" />
+  <text x="240" y="344" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" fill="#ffffff">PROBLEMS 0</text>
+  <text x="320" y="344" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" fill="#ffffff">OUTPUT</text>
+  <text x="385" y="344" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" fill="#ffffff">DEBUG CONSOLE</text>
+  <text x="490" y="344" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" fill="#007acc">TERMINAL</text>
+
+  <!-- Terminal Content -->
+  <g font-family="'Consolas', monospace" font-size="11" fill="#cccccc">
+    <text x="240" y="375" fill="#4ec9b0">PS C:\Users\PhamXuanKy\WebProject&gt;</text>
+    <text x="475" y="375" fill="#ce9178">git status</text>
+    <text x="240" y="398" fill="#d4d4d4">On branch main</text>
+    <text x="240" y="418" fill="#4fc1ff">nothing to commit, working tree clean</text>
+    <text x="240" y="440" fill="#4ec9b0">PS C:\Users\PhamXuanKy\WebProject&gt;</text>
+    <rect x="475" y="430" width="7" height="13" fill="#ffffff" />
+  </g>
+
+  <!-- Status Bar at bottom -->
+  <rect x="0" y="458" width="800" height="22" fill="#007acc" />
+  <text x="15" y="473" font-family="'Segoe UI', sans-serif" font-size="11" fill="#ffffff">main*  |  0 errors, 0 warnings</text>
+  <text x="785" y="473" font-family="'Segoe UI', sans-serif" font-size="11" fill="#ffffff" text-anchor="end">UTF-8  |  HTML  |  Spaces: 2</text>
+</svg>
